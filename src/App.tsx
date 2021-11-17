@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Gallery from './components/Main/Main';
-import PageNotFound from './components/ErrorPage/ErrorPage';
+import PageNotFound from './components/ErrorPage/error-page';
 import './styles.scss';
 
 export const App: FC = () => {
